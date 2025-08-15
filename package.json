@@ -1,0 +1,13 @@
+{
+  "name": "collaborative-task-board",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": "true",
+  "scripts": {
+    "dev": "yarn workspace shared run watch & yarn workspace client run dev & yarn workspace server run dev"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "module": "nodenext",
+    "target": "es2015",
+    "moduleResolution": "nodenext",
+    "outDir": "dist",
+    "skipLibCheck": true,
+    "sourceMap": true
+  },
+
+  "exclude": ["node_modules/"]
+}
